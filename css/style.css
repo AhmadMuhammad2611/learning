@@ -1,0 +1,457 @@
+/********* Start Navbar **************/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Righteous', cursive;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar-brand, .navbar-expand-lg .navbar-nav .nav-link {
+    font-weight: bold;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #376393;
+    -webkit-transition: color .5s ease-in-out;
+    -moz-transition: color .5s ease-in-out;
+    -ms-transition: color .5s ease-in-out;
+    -o-transition: color .5s ease-in-out;
+    transition: color .5s ease-in-out;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.navbar-toggler {
+    padding: 10px 18px;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
+    color: #376393;
+    font-weight: 500;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:hover {
+    color: #007bff;
+    padding-left: 1.7rem;
+    border-left: 2px solid #007bff;
+}
+
+/********* End Navbar **************/
+/********* Start Welcome area **************/
+.header .container h1 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.header .container button {
+    padding: .8rem 1.2rem;
+}
+/********* End Welcome area **************/
+/********* Start Features ***********/
+
+#about {
+    padding: 100px 0px;
+    position: relative;
+    z-index: 9;
+}
+
+.features-item {
+    border-radius: 5px;
+    padding: 60px 30px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+}
+
+.features-item h2 {
+    z-index: 9;
+    position: absolute;
+    top: 15px;
+    left: 45px;
+    font-size: 100px;
+    font-weight: 600;
+    color: #e9f0fd;
+}
+
+.features-item i {
+    z-index: 10;
+    position: relative;
+    max-width: 100%;
+    margin-bottom: 40px;
+    font-size: 100px;
+    font-weight: 600;
+    color: #007bff;
+}
+
+.features-item h4 {
+    margin-top: 0px;
+    font-size: 22px;
+    color: #1e1e1e;
+    margin-bottom: 25px;
+}
+
+.features-item p {
+    margin-bottom: 40px;
+}
+
+a.main-button {
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 15px 25px;
+    background-color: #2c60c2;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+a.main-button:hover {
+    background-color: #10306b;
+}
+
+/********* End Features *************/
+/********* Start left decor *********/
+
+.left-image-decor {
+    background-image: url(../img/left-bg-decor.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+    height: 110%;
+    margin-top: -200px;
+}
+/********* End left decor *********/
+/********* Start Promotion **********/
+
+#promotion {
+    padding: 100px 0px;
+}
+
+#promotion .left-image {
+    align-self: center;
+}
+
+#promotion .right-text ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#promotion .right-text ul li {
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
+#promotion .right-text i {
+    display: block;
+    float: left;
+    margin-right: 30px;
+    font-size: 100px;
+    color: #2c60c2;
+}
+
+#promotion .right-text h4 {
+    font-size: 22px;
+    color: #1e1e1e;
+    margin-bottom: 15px;
+    margin-top: 3px;
+}
+
+#promotion .right-text p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #888;
+}
+
+/********* End Promotion ***********/
+/********* Start right decor *********/
+
+.right-image-decor {
+    background-image: url(../img/right-bg-decor.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+    height: 110%;
+    margin-top: -200px;
+}
+
+/********* End right decor *********/
+/******** Start Testimonials *********/
+#testimonials {
+    padding-top: 100px;
+    position: relative;
+    z-index: 9;
+}
+
+.center-heading {
+    margin-bottom: 70px;
+}
+
+.center-heading h2 {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    color: #1e1e1e;
+    margin-bottom: 25px;
+}
+
+.center-heading h2 em {
+    font-style: normal;
+    color: #007bff;
+}
+
+.center-heading p {
+    font-size: 15px;
+    color: #888;
+    text-align: center;
+}
+
+#testimonials .item {
+    position: relative;
+}
+
+#testimonials .author img {
+    max-width: 120px;
+    margin-bottom: -60px;
+}
+
+#testimonials .item .testimonial-content {
+    background: rgb(244, 129, 63);
+    background: linear-gradient(
+145deg
+, rgb(82, 117, 232) 0%, rgb(26, 23, 213) 100%);
+    margin-left: 60px;
+    padding: 40px 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#testimonials .item .testimonial-content ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#testimonials .item .testimonial-content ul li {
+    display: inline-block;
+    margin: 0px 1px;
+}
+
+#testimonials .item .testimonial-content ul li i {
+    color: #fff;
+    font-size: 13px;
+}
+
+#testimonials .item .testimonial-content h4 {
+    font-size: 22px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+#testimonials .item .testimonial-content p {
+    color: #fff;
+    font-style: italic;
+    font-weight: 200;
+    margin: 20px 0px 15px 0px;
+}
+
+#testimonials .item .testimonial-content span {
+    color: #fff;
+    font-weight: 200;
+    font-size: 13px;
+}
+
+.owl-carousel .owl-nav span {
+    font-size: 3rem;
+    color: #fff;
+    padding: .8rem 2rem;
+    border-radius: 8px;
+    margin-left: 2rem;
+    background-color: #10306b;
+    position: relative;
+    outline: none;
+}
+
+/******** End Testimonials **********/
+/********* Start Footer ************/
+
+footer {
+    margin-top: 200px;
+    padding-top: 120px;
+    background-image: url(../img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+}
+
+footer .footer-content {
+    padding: 120px 0px;
+}
+
+/** Start contact form **/
+
+.contact-form {
+    position: relative;
+    z-index: 10;
+    padding: 45px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .1);
+    text-align: center;
+}
+
+.contact-form input, .contact-form textarea {
+    color: #777;
+    font-size: 13px;
+    border: 1px solid #eee;
+    background-color: rgba(250, 250, 250, 0.3);
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-bottom: 30px;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: none;
+    padding: 20px;
+}
+
+.contact-form button.main-button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 25px;
+    padding: 15px 25px;
+    background-color: #007bff;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.contact-form button.main-button:hover {
+    background-color: #10306b;
+}
+
+/** End contact form **/
+
+.footer-content .right-content {
+    color: #fff;
+}
+
+.footer-content .right-content h2 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 42px;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.footer-content .right-content h2 em {
+    font-style: normal;
+    color: #82b8f2;
+}
+
+.footer-content .right-content p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.footer-content .right-content a {
+    color: #FFF;
+}
+
+footer .social {
+    overflow: hidden;
+    margin-top: 30px;
+    list-style: none;
+}
+
+footer .social li {
+    margin: 0px 7.5px;
+    display: inline-block;
+}
+
+footer .social li:first-child {
+    margin-left: 0px;
+}
+
+footer .social li a {
+    color: #fff;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #fff;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+footer .social li a:hover {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+footer .sub-footer {
+    padding: 60px 0px;
+    border-top: 1px solid rgba(250, 250, 250, 0.3);
+    text-align: center;
+}
+
+footer .sub-footer p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+footer .sub-footer a {
+    color: #FFF;
+}
+
+
+/************ End Footer *************/
