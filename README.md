@@ -20,7 +20,7 @@
 
 
 <!-- ABOUT -->
-## Skills Used
+## Using
 
 * HTML, CSS, JavaScript, Bootstrap
 
