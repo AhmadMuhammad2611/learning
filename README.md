@@ -52,7 +52,6 @@
 [![WhatsApp][WhatsApp.com]][WhatsApp-url]
 [![Gmail][Gmail.com]][Gmail-url]
 <br />
-<a href="https://mail.google.com/mail/?view=cm&source=mailto&to=ahmadnaguib2611@gmail.com"><strong>ahmadnaguib2611@gmail.com</strong></a> <br /><br />
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
